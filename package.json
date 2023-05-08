@@ -1,0 +1,29 @@
+{
+  "name": "bizimapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dijitaldervis/bizimapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dijitaldervis/bizimapp/issues"
+  },
+  "homepage": "https://github.com/dijitaldervis/bizimapp#readme",
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "eslint-config-google": "^0.14.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase": "^9.21.0",
+    "rest-js": "^1.1.3"
+  }
+}
